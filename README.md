@@ -18,3 +18,5 @@
 	name:"test"
 	}
 	with(obj){console.log(name)}// 直接输出"test"
+## 3. 阻止表单的默认行为
+	在form onsubmit="return false" 能阻止表单的默认提交行为
