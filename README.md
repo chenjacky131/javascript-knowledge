@@ -1,6 +1,6 @@
 # javascript-knowledge
 
-## JavaScript标签
+## 1. JavaScript标签
 	<script type="text/javascript">
 		var arr = ['a','b','c','d','e'];
 		list:{// JavaScript标签
