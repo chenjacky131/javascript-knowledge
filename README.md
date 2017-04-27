@@ -27,3 +27,6 @@
 	function randomRange(from,to){
 		return Math.floor(Math.random()*(to-from+1)+from)
 	}	
+## 6. window对象
+	1全局变量是window对象的属性
+	2全局函数是window对象的方法
