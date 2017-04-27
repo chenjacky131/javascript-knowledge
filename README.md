@@ -30,3 +30,7 @@
 ## 6. window对象
 	1全局变量是window对象的属性
 	2全局函数是window对象的方法
+## 7. JavaScript中的三种消息框
+	1. alert("消息");
+	2. confirm("问题"); 点击确定返回true,点击取消返回false;
+	3. prompt("文本","默认值");点击确定，返回文本框里面的值，点击取消返回null;
