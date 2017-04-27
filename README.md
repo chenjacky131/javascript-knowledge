@@ -20,3 +20,6 @@
 	with(obj){console.log(name)}// 直接输出"test"
 ## 3. 阻止表单的默认行为
 	在form onsubmit="return false" 能阻止表单的默认提交行为
+## 4. 八进制和十六进制
+	1. 八进制 var x = 0377 // x = 255
+	2. 十六进制 var x = 0xFF // x = 255
