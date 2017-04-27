@@ -23,3 +23,7 @@
 ## 4. 八进制和十六进制
 	1. 八进制 var x = 0377 // x = 255
 	2. 十六进制 var x = 0xFF // x = 255
+## 5. 返回一个from到to之间的随机数
+	function randomRange(from,to){
+		return Math.floor(Math.random()*(to-from+1)+from)
+	}	
