@@ -47,3 +47,5 @@
 	bBoolen();Number();String();
 ## 12. 引用类型对象String
 	如果该字符串中只有一个 "o" 字符串，那么 indexOf() 和 lastIndexOf() 方法返回的位置相同，可用于判断某个字符串中某字符是否只有一个。
+## 13. 判断引用类型的类型
+	a instanceof Number;a某实例是否为制定的引用类型。
