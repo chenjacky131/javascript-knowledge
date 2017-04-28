@@ -36,6 +36,7 @@
 	3. prompt("文本","默认值");点击确定，返回文本框里面的值，点击取消返回null;
 ## 8. 科学计数法
 	var fNum = 5.79e7 (57900000);
+	Number.toExponential(n) 返回科学计数法的数字，n为小数点后面的数字。例：(13112).toExponential(2):1.31e+4
 ## 9. 关于数字的几个方法
 	isFinite(n):n是否无穷大;
 	isNaN(n);n是否为NaN;
