@@ -39,3 +39,6 @@
 ## 9. 关于数字的几个方法
 	isFinite(n):n是否无穷大;
 	isNaN(n);n是否为NaN;
+## 10. 关于进制转换
+	函数parseInt()可以解析一个字符串,用法：parseInt(string, radix),radix为要转的进制，转后后的数为number类型
+	Number.toString(radix)也可以进行进制转换，转后后的数为string类型。
