@@ -1,4 +1,4 @@
-# javascript-knowledge
+# javascript-knowledge a[http://www.w3school.com.cn/js/index_pro.asp]链接
 
 ## 1. JavaScript标签
 	<script type="text/javascript">
@@ -53,3 +53,5 @@
 	delete：删除开发者创建的对象属性，如果属性删除成功，返回true.
 	+:可将字符串转换为数字，可转10进制的和16进制的字符串。 
 	-:和类似，可将字符串转为负的数值.
+## 15. 位运算符
+	not:对数字求负，然后-1.
