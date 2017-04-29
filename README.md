@@ -1,9 +1,8 @@
 ```javascript
-  var ihubo = {
-    nickName  : "草依山",
-    site : "http://jser.me"
-  }
-```
+	var a = [1,2,3]
+	console.log(a);
+```	
+
 # javascript-knowledge [ECMAScriptapi](http://www.w3school.com.cn/js/index_pro.asp)
 
 ## 1. JavaScript标签
