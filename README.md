@@ -1,4 +1,3 @@
-` 测试 `
 # javascript-knowledge [ECMAScriptapi](http://www.w3school.com.cn/js/index_pro.asp)
 
 ## 1. JavaScript标签
@@ -55,4 +54,4 @@
 	+:可将字符串转换为数字，可转10进制的和16进制的字符串。 
 	-:和类似，可将字符串转为负的数值.
 ## 15. 位运算符
-	not:对数字求负，然后-1.
+	not:对` 数字 `求负，然后-1.
