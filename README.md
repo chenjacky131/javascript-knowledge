@@ -1,4 +1,4 @@
-# javascript-knowledge [ECMAScriptapi](http://www.w3school.com.cn/js/index_pro.asp)
+# javascript-knowledge [ECMAScriptApi](http://www.w3school.com.cn/js/index_pro.asp)
 
 ## 1. JavaScript标签
 ``` javascript
