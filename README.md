@@ -26,9 +26,11 @@
 	1. 八进制 var x = 0377 // x = 255
 	2. 十六进制 var x = 0xFF // x = 255
 ## 5. 返回一个from到to之间的随机数
+```javascript
 	function randomRange(from,to){
 		return Math.floor(Math.random()*(to-from+1)+from)
 	}	
+```	
 ## 6. window对象
 	1全局变量是window对象的属性
 	2全局函数是window对象的方法
