@@ -61,3 +61,5 @@
 	not:对数字求负，然后-1.
 ## 16. 函数的length属性
 	返回函数期望的参数个数
+## 17. String.fromCodePoint 函数 
+	返回与 Unicode UTF-16 码位关联的字符串。	
