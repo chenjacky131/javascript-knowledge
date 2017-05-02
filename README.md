@@ -64,8 +64,8 @@
 ## 17. String.fromCodePoint 函数 
 	返回与 Unicode UTF-16 码位关联的字符串。	
 ## 18. 创建对象的方法
-	通常用下面两种方式：
-		1. 构造函数/原型方式
+通常用下面两种方式：
+1. 构造函数/原型方式
 ```javascript
 function Car(sColor,iDoors,iMpg) {
   this.color = sColor;
@@ -86,7 +86,7 @@ oCar1.drivers.push("Bill");
 alert(oCar1.drivers);	//输出 "Mike,John,Bill"
 alert(oCar2.drivers);	//输出 "Mike,John"
 ```
-		2. 动态原型方法
+2. 动态原型方法
 ```javascript
 	function Car(sColor,iDoors,iMpg) {
 	  this.color = sColor;
