@@ -86,7 +86,7 @@ oCar1.drivers.push("Bill");
 alert(oCar1.drivers);	//输出 "Mike,John,Bill"
 alert(oCar2.drivers);	//输出 "Mike,John"
 ```
-2. 动态原型方法
+2. 动态原型方法(进行了视觉上的封装，看起来更和谐)
 ```javascript
 	function Car(sColor,iDoors,iMpg) {
 	  this.color = sColor;
