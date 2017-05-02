@@ -63,3 +63,43 @@
 	返回函数期望的参数个数
 ## 17. String.fromCodePoint 函数 
 	返回与 Unicode UTF-16 码位关联的字符串。	
+## 18. 创建对象的方法
+	通常用下面两种方式：
+		1. 构造函数/原型方式
+		```javascript
+		function Car(sColor,iDoors,iMpg) {
+		  this.color = sColor;
+		  this.doors = iDoors;
+		  this.mpg = iMpg;
+		  this.drivers = new Array("Mike","John");
+		}
+
+		Car.prototype.showColor = function() {
+		  alert(this.color);
+		};
+
+		var oCar1 = new Car("red",4,23);
+		var oCar2 = new Car("blue",3,25);
+
+		oCar1.drivers.push("Bill");
+
+		alert(oCar1.drivers);	//输出 "Mike,John,Bill"
+		alert(oCar2.drivers);	//输出 "Mike,John"
+		```
+		2. 动态原型方法
+		```javascript
+			function Car(sColor,iDoors,iMpg) {
+			  this.color = sColor;
+			  this.doors = iDoors;
+			  this.mpg = iMpg;
+			  this.drivers = new Array("Mike","John");
+
+			  if (typeof Car._initialized == "undefined") {
+			    Car.prototype.showColor = function() {
+			      alert(this.color);
+			    };
+
+			    Car._initialized = true;
+			  }
+			}
+		```
