@@ -106,3 +106,5 @@ alert(oCar2.drivers);	//输出 "Mike,John"
 ## 19. 对象的继承
 	1. call方法；call方法第一个参数为替代this的对象，后面的参数为函数的调用参数；
 	2. apply方法；自由两个参数。apply方法第一个参数和call一样，第二个参数为保持参数的数组；
+## 20. String的match方法和RegExp的exec方法
+	如果String的match参数里面的正则没有g修饰符，则这两个方法返回的结果一样。第一个参数为匹配的文本，还有个index属性是匹配文本在stringObjec中的位置。input属性是对stringObject的引用；如果Sring的match参数有g修饰符，则返回的数组为存放所有的匹配子串。没有前面提到的两个属性。
