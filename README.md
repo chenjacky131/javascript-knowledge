@@ -114,3 +114,7 @@ alert(oCar2.drivers);	//输出 "Mike,John"
 	3. some()方法：和every类似，但是只要对于一个元素返回true，则该方法就返回true。
 	4. map()方法：和forEach类似，但是它返回一个新的数组，该数组的元素是对原有元素应用某个函数得到的结果。
 	5. filter()方法：和every类似。不同的是，对数组所有的元素应用该函数，返回一个新的数组，该数组包含应用改函数后结果为true的元素。
+## 22. 返回一个0到n的随机数
+```javascript
+	Math.floor(Math.random()*(n-1));
+```	
