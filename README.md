@@ -116,5 +116,5 @@ alert(oCar2.drivers);	//输出 "Mike,John"
 	5. filter()方法：和every类似。不同的是，对数组所有的元素应用该函数，返回一个新的数组，该数组包含应用改函数后结果为true的元素。
 ## 22. 返回一个0到n的随机数
 ```javascript
-	Math.floor(Math.random()*(n-1));
+	Math.floor(Math.random()*(n+1));
 ```	
