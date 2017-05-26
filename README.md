@@ -132,3 +132,16 @@ Array.prototype.unique = function(){
     return res;
 }
 ```
+## 24.快速排序
+```javascript
+function quickSort(arr){
+  if(arr.length <= 1) return arr;
+  var index = Math.floor(arr.length/2);
+  var key = arr.splice(index,1)[0];
+  var left = [],right = [];
+  arr.forEach(function(v){
+      v <= key ? left.push(v) : right.push(v);
+  });
+  return quickSort(left).concat([key],quickSort(right));
+}
+```
