@@ -147,6 +147,7 @@ function quickSort(arr){
 ```
 ## 25.加入收藏代码
 ```javascript
+	<a onclick="AddFavorite(window.location,document.title)" href="javascript:void(0)">收藏本站</a>
 	function AddFavorite(sURL, sTitle) {
 
 	    sURL = encodeURI(sURL);
