@@ -118,3 +118,17 @@ alert(oCar2.drivers);	//输出 "Mike,John"
 ```javascript
 	Math.floor(Math.random()*(n+1));
 ```	
+## 23.数组去重
+```javascript
+Array.prototype.unique = function(){
+    var res = [];
+    // forEach方法中的function回调有三个参数：
+    //第一个参数是遍历的数组内容，第二个参数是对应的数组索引，第三个参数是数组本身
+    this.forEach(function(v){
+        if(res.indexOf(v)<0){
+            res.push(v);
+        }
+    })
+    return res;
+}
+```
