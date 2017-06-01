@@ -171,3 +171,19 @@ function quickSort(arr){
 
 	}
 ```
+## 26.IE兼容nth-child选择器的方法
+1. *:first-child+li{匹配第二个}
+
+2. *:first-child+li+li{匹配第三个}
+ 
+ 
+## 27.防止键盘把当前输入框给挡住
+```javascript
+$$('input[type="text"],textarea').on('click', function () {
+  var target = this;
+  setTimeout(function(){
+        target.scrollIntoViewIfNeeded();
+        console.log('scrollIntoViewIfNeeded');
+      },400);
+});
+```
