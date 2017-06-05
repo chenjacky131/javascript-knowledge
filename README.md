@@ -192,3 +192,7 @@ $$('input[type="text"],textarea').on('click', function () {
 	2.pop:从数组后面移除值，并返回移除的值，原数组改变
 	3.shift:从数组前面移除值，并返回移除的值，原数组改变
 	3.unshift:从数组前面添加值
+## 29.按钮浮起效果css
+```css
+ box-shadow:0 2px 2px rgba(0,0,0,0.77);
+```
