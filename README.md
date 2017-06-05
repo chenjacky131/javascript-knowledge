@@ -192,3 +192,31 @@ $$('input[type="text"],textarea').on('click', function () {
 	2.pop:从数组后面移除值，并返回移除的值，原数组改变
 	3.shift:从数组前面移除值，并返回移除的值，原数组改变
 	3.unshift:从数组前面添加值
+## 29.深拷贝
+	1.两个参数
+ 	```javascript
+		function clone(o1,o2){
+		    for(var key in o2){
+		        if(typeof o2[key] == 'object'){
+		            o1[key] = {};
+		            clone(o1[key],o2[key])
+		        }else{
+		            o1[key] = o2[key];
+		        }
+		    }
+		}	
+	```	
+	2.一个参数
+	```javascript
+		function clone(o){
+			var temp = {};
+			for(var key in o){
+				if(typeof o[key] =='object'){
+					temp[key] = clone(o[key]);
+				}else{
+					temp[key] = o[key];
+				}
+			}
+			return temp;
+		}	
+	```
