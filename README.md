@@ -229,4 +229,4 @@ $$('input[type="text"],textarea').on('click', function () {
 	6.>>（有符号右移）:二进制位右移操作，符号位后面用符号位填充。
 	7.>>>（无符号右移）:
 ## 31.闭包知识点
-参考:ttp://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html
+参考:http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html
