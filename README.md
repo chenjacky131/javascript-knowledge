@@ -230,3 +230,8 @@ $$('input[type="text"],textarea').on('click', function () {
 	7.>>>（无符号右移）:
 ## 31.闭包知识点
 参考:http://www.ruanyifeng.com/blog/2009/08/learning_javascript_closures.html
+
+## 32.js sort排序
+	1.如果对数字排序：升序：return a-b;降序：return b-a;
+	2.如果对字符串排序：升序return a>b;降序return a<b;
+	3.还有一种是用localCompare来比较，有用到在查询用法.
