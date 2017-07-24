@@ -235,3 +235,5 @@ $$('input[type="text"],textarea').on('click', function () {
 	1.如果对数字排序：升序：return a-b;降序：return b-a;
 	2.如果对字符串排序：升序return a>b;降序return a<b;
 	3.还有一种是用localCompare来比较，有用到在查询用法.
+## 33.监听dom变化
+	可以监听这个事件DOMNodeInserted
