@@ -237,3 +237,7 @@ $$('input[type="text"],textarea').on('click', function () {
 	3.还有一种是用localCompare来比较，有用到在查询用法.
 ## 33.监听dom变化
 	可以监听这个事件DOMNodeInserted
+## 34.页面加载完成的一些区别
+	window.onload:用于当页面的所有元素，包括外部引用文件，图片等都加载完毕时运行函数内的函数。load方法只能执行一次，如果在js文件里写了多个，只能执行最后一个。
+
+	$(document).ready(function(){})和$(function(){})都是用于当页面的标准DOM元素被解析成DOM树后就执行内部函数。这个函数是可以在js文件里多次编写的，对于多人共同编写的js就有很大的优势，因为所有行为函数都会执行到。而且$(document).ready()函数在HMTL结构加载完后就可以执行，不需要等大型文件加载或者不存在的连接等耗时工作完成才执行，效率高。
